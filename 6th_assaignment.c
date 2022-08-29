@@ -1,5 +1,5 @@
 // 1. Write a program to calculate sum of first N natural numbers
-/* #include<stdio.h>
+ #include<stdio.h>
 int main(){
    int number,loop=1, sum=0;
    printf("Enter a number");
@@ -10,10 +10,10 @@ int main(){
        loop ++;
     }
     printf("\n %d",sum);
-} */
+} 
 
 //  Write a program to calculate sum of first N even natural numbers
-/*  #include<stdio.h>
+  #include<stdio.h>
   int main(){
       int number, sum=0, loop=1, even=0;
       printf("enter a number");
@@ -29,10 +29,10 @@ int main(){
       printf("the sum of all even numbers is %d",sum);
 
       return 0;
-  } */
+  } 
 
 // 3. Write a program to calculate sum of first N odd natural numbers
-/*   #include<stdio.h>
+   #include<stdio.h>
    int main(){
        int input, loop, sum=0, odd=0;
        printf("enter a number");
@@ -46,10 +46,10 @@ int main(){
        }
        printf("the sum of odd number is %d",sum);
        return 0;
-   } */
+   } 
 
 // 4. Write a program to calculate sum of squares of first N natural numbers
-/* #include<stdio.h>
+ #include<stdio.h>
  int main(){
      int sum =0, square =0, loop, input;
      printf("enter a number");
@@ -61,10 +61,10 @@ int main(){
          }
      printf("the sum of square number is %d",sum);
      return 0;
- } */
+ } 
 
 // 5. Write a program to calculate sum of cubes of first N natural numbers
-/*   #include<stdio.h>
+   #include<stdio.h>
    int main(){
        int cube=0, sum=0, input, loop;
        printf("enter a number");
@@ -75,10 +75,10 @@ int main(){
        }
        printf("cube of number is %d",sum);
        return 0;
-   } */
+   } 
 
 // 6. Write a program to calculate factorial of a number
-/*  #include<stdio.h>
+  #include<stdio.h>
   int main(){
       int input, fact=1, loop;
       printf("enter a number");
@@ -89,10 +89,10 @@ int main(){
       }
       printf("factorial of number is %d",fact);
       return 0;
-  } */
+  } 
 
 // 7. Write a program to count digits in a given number
-/*  #include<stdio.h>
+  #include<stdio.h>
   int main(){
       int  count=0, l_digit, number;
       printf("enter a number");
@@ -105,10 +105,10 @@ int main(){
       }
       printf("the given number is %d digit number",count);
       return 0;
-  } */
+  } 
 
 // 8. Write a program to check whether a given number is a Prime number or not
-/*  #include<stdio.h>
+  #include<stdio.h>
   int main(){
       int number,loop=2;
       printf("enter a number");
@@ -124,7 +124,7 @@ int main(){
               else
                   printf("%d is not a prime number",number);
       return 0;
-  } */
+  } 
 
 // 9. Write a program to calculate LCM of two numbers
             #include<stdio.h>
@@ -145,7 +145,7 @@ int main(){
 
 
 // 10. Write a program to reverse a given number
-/*  #include<stdio.h>
+  #include<stdio.h>
   int main(){
       int number ,rem=0, rev=0;
       printf("enter a number");
@@ -157,4 +157,4 @@ int main(){
       }
       printf("the reverse number is %d",rev);
      return 0;
-  } */
+  } 
